@@ -25,6 +25,11 @@ public class MulticastDetection {
 		receiver.setSoTimeout(SOCKET_TIMEOUT);
 	}
 
+	public void stop() {
+		receiver.close();
+		publisher.close();
+	}
+
 	public void start() throws IOException {
 		String message = "empty message";
 		DatagramPacket toSend = new DatagramPacket(
