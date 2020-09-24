@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MulticastDetection {
+public class MulticastDetection implements AutoCloseable{
 	private final long RECEIVE_TIMEOUT = 3000;
 	private final int SOCKET_TIMEOUT = 300;
 
@@ -25,9 +25,10 @@ public class MulticastDetection {
 		receiver.setSoTimeout(SOCKET_TIMEOUT);
 	}
 
-	public void stop() {
-		receiver.close();
+	@Override
+	public void close() {
 		publisher.close();
+		receiver.close();
 	}
 
 	public void start() throws IOException {
