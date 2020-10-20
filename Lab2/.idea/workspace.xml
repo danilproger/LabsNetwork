@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f27ad37-fbd4-4bb2-9b3b-4972500f0451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/ClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +44,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12.0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="client" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/text.txt 127.0.0.1 1337" />
@@ -64,13 +72,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
@@ -87,7 +105,7 @@
       <workItem from="1602216748090" duration="6702000" />
       <workItem from="1602433445900" duration="5795000" />
       <workItem from="1602509533228" duration="2819000" />
-      <workItem from="1603166091686" duration="111000" />
+      <workItem from="1603166091686" duration="1614000" />
     </task>
     <servers />
   </component>
@@ -99,41 +117,57 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="444" y="93" key="#Project_Structure/0.0.1920.1034@0.0.1920.1034" timestamp="1602132169891" />
-    <state x="533" y="120" width="1081" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602225365950">
+    <state x="533" y="120" width="1081" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603166777155">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="533" y="120" width="1081" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1602225365950" />
+    <state x="533" y="120" width="1081" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1603166777155" />
     <state x="1251" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1602223903517">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="1251" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1034@0.0.1920.1034" timestamp="1602223903517" />
+    <state x="807" y="292" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603166774868">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="807" y="292" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1603166774868" />
     <state x="1081" y="56" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602225226037">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="1081" y="56" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1602225226037" />
-    <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1602513952687">
+    <state x="743" y="224" key="FileChooserDialogImpl" timestamp="1603166683404">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1602513952687" />
-    <state width="1874" height="262" key="GridCell.Tab.0.center" timestamp="1602513952687">
+    <state x="743" y="224" key="FileChooserDialogImpl/0.0.1920.1034@0.0.1920.1034" timestamp="1603166683404" />
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1603166786744">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="262" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1602513952687" />
-    <state width="1874" height="262" key="GridCell.Tab.0.left" timestamp="1602513952686">
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1603166786744" />
+    <state width="1874" height="262" key="GridCell.Tab.0.center" timestamp="1603166786742">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="262" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1602513952686" />
-    <state width="1874" height="262" key="GridCell.Tab.0.right" timestamp="1602513952687">
+    <state width="1874" height="262" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1603166786742" />
+    <state width="1874" height="262" key="GridCell.Tab.0.left" timestamp="1603166786741">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="262" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1602513952687" />
-    <state x="443" y="94" width="1032" height="848" key="SettingsEditor" timestamp="1603166201732">
+    <state width="1874" height="262" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1603166786741" />
+    <state width="1874" height="262" key="GridCell.Tab.0.right" timestamp="1603166786743">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="443" y="94" width="1032" height="848" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1603166201732" />
-    <state x="594" y="91" key="new project wizard" timestamp="1602132191057">
+    <state width="1874" height="262" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1603166786743" />
+    <state x="597" y="136" key="NewModule_or_Project.wizard" timestamp="1603166690188">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="594" y="91" key="new project wizard/0.0.1920.1034@0.0.1920.1034" timestamp="1602132191057" />
+    <state x="597" y="136" key="NewModule_or_Project.wizard/0.0.1920.1034@0.0.1920.1034" timestamp="1603166690188" />
+    <state x="776" y="155" key="RollbackChangesDialog" timestamp="1603166262374">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="776" y="155" key="RollbackChangesDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1603166262374" />
+    <state x="443" y="94" width="1032" height="848" key="SettingsEditor" timestamp="1603166702308">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="443" y="94" width="1032" height="848" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1603166702308" />
+    <state x="594" y="91" key="new project wizard" timestamp="1603166352312">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="594" y="91" key="new project wizard/0.0.1920.1034@0.0.1920.1034" timestamp="1603166352312" />
   </component>
 </project>

@@ -6,33 +6,29 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
 public class ClientHandler implements Runnable {
+	private String fileName;
+	private File file;
+	private long fileSize;
+
 	private final Socket socket;
 
-	private String fileName;
-	private long fileSize;
-	private File file;
-
-	private final DataInputStream stream;
-
-	public ClientHandler(Socket client) throws IOException {
+	public ClientHandler(Socket client) {
 		this.socket = client;
-		this.stream = new DataInputStream(socket.getInputStream());
-
 	}
 
 	@Override
 	public void run() {
-		try {
-			receiveFileName();
-			receiveFileSize();
+		try(DataInputStream stream = new DataInputStream(socket.getInputStream())) {
+			receiveFileName(stream);
+			receiveFileSize(stream);
 			createFile();
-			receiveFile();
+			receiveFile(stream);
 		} catch (IOException ex) {
 			ex.printStackTrace();
 		}
 	}
 
-	private void receiveFileName() throws IOException {
+	private void receiveFileName(DataInputStream stream) throws IOException {
 		int fileNameSize = stream.readInt();
 		byte[] fileNameBytes = new byte[fileNameSize];
 
@@ -40,7 +36,7 @@ public class ClientHandler implements Runnable {
 		fileName = new String(fileNameBytes, StandardCharsets.UTF_8);
 	}
 
-	private void receiveFileSize() throws IOException {
+	private void receiveFileSize(DataInputStream stream) throws IOException {
 		fileSize = stream.readLong();
 	}
 
@@ -62,7 +58,7 @@ public class ClientHandler implements Runnable {
 		}
 	}
 
-	private void receiveFile() throws IOException {
+	private void receiveFile(DataInputStream stream) throws IOException {
 		FileOutputStream outputStream = new FileOutputStream(file);
 		int read = 0, bytes;
 		byte[] buffer = new byte[1024];
@@ -80,6 +76,7 @@ public class ClientHandler implements Runnable {
 
 			printMessage(read, start, instantSpeed);
 		}
+		outputStream.close();
 	}
 
 	private void printMessage(int read, long start, double instantSpeed) {

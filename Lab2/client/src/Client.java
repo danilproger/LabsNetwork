@@ -40,6 +40,7 @@ public class Client implements AutoCloseable {
 		FileInputStream fileStream = new FileInputStream(file);
 		byte[] buffer = new byte[1024];
 		int bytes;
+
 		while ((bytes = fileStream.read(buffer, 0, 1024)) > 0) {
 			outputStream.write(buffer, 0, bytes);
 		}

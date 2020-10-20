@@ -33,7 +33,11 @@ public class Server implements AutoCloseable {
 	public void close() throws IOException {
 
 		for (Socket s : clientSockets) {
-			s.close();
+			try {
+				s.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
 		}
 
 		for (Thread t : clientThreads) {
