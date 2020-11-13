@@ -2,6 +2,6 @@ package message;
 
 public enum MessageType {
 	MESSAGE,
-	ACCEPT,
-	DISCONNECT
+	CONFIRM,
+	DELEGATOR
 }
