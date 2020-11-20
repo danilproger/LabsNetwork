@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99189852-e443-47dc-a389-94c7b771f608" name="Default Changelist" comment="" />
+    <list default="true" id="99189852-e443-47dc-a389-94c7b771f608" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/message/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/node/NodeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/node/NodeReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/node/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -33,8 +53,47 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/ChatTreev3.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Node_serega">
+    <configuration name="Node_serega" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab3.main" />
+      <option name="PROGRAM_PARAMETERS" value="serega 2002 0 127.0.0.1 2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node_stas" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab3.main" />
+      <option name="PROGRAM_PARAMETERS" value="stas 2001 0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Node_stas" />
+      <item itemvalue="Application.Node_serega" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,10 +104,53 @@
       <option name="presentableId" value="Default" />
       <updated>1599280191174</updated>
       <workItem from="1599280194713" duration="20000" />
+      <workItem from="1605007916221" duration="17805000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="94" width="1032" height="848" key="#Project_Structure" timestamp="1605007933272">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="443" y="94" width="1032" height="848" key="#Project_Structure/0.0.1920.1034@0.0.1920.1034" timestamp="1605007933272" />
+    <state x="839" y="173" width="1081" height="791" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605023938703">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="839" y="173" width="1081" height="791" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1605023938703" />
+    <state x="1251" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1605020308723">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="1251" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1034@0.0.1920.1034" timestamp="1605020308723" />
+    <state x="1113" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605023936539">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="1113" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1605023936539" />
+    <state x="1169" y="0" width="546" height="1038" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605021823683">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="1169" y="0" width="546" height="1038" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1605021823683" />
+    <state x="1355" y="294" key="FileChooserDialogImpl" timestamp="1605010741969">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="1355" y="294" key="FileChooserDialogImpl/0.0.1920.1034@0.0.1920.1034" timestamp="1605010741969" />
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1605025468518">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1605025468518" />
+    <state width="1874" height="262" key="GridCell.Tab.0.center" timestamp="1605025468517">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1605025468517" />
+    <state width="1874" height="262" key="GridCell.Tab.0.left" timestamp="1605025468516">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1605025468516" />
+    <state width="1874" height="262" key="GridCell.Tab.0.right" timestamp="1605025468518">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1605025468518" />
   </component>
 </project>
