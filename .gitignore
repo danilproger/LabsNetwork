@@ -1,7 +1,8 @@
 Lab3/
-Lab4/.gradle/
 Lab4/.idea/
-Lab4/gradle/
-Lab4/gradlew
-Lab4/gradlew.bat
-Lab4/settings.gradle
+Lab4/Lab4.iml
+Lab4/target
+Lab5/Lab5.iml
+Lab5/.idea/
+Lab5/target
+Lab5/pom.xml
